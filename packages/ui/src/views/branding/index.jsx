@@ -145,6 +145,10 @@ const Branding = () => {
                 <Button variant='contained' sx={{ width: 'fit-content' }} onClick={saveBranding} disabled={!logo && !footerText && !footerLink}>
                     Save
                 </Button>
+                <Typography variant='body2' sx={{ mt: 2 }}>
+                    The footer is completely configurable through the <code>theme.chatWindow.footer</code> object.
+                    Add or override this block inside the snippet where you call the chatbot widget.
+                </Typography>
             </Box>
         </MainCard>
     )
